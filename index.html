@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodexCodings | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="logo" width="70px" height="50px
+                        "></a>
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="products.html">Products</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="account.html">Account</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="50px" height="30px"></a>
+                <img src="images/menu-icon.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Self<br>A New Style!</h1>
+                    <p>Success isn't always about greatness. It's about consistency. consistent<br>hard work gains success. Greatness will come. </p>
+                    <a href="#" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/headerimg.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured Categories -->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3"><img src="images/categories1.jpg"></div>
+                <div class="col-3"><img src="images/categories2.png"></div>
+                <div class="col-3"><img src="images/categories3.jpg"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured products -->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="products-details.html"><img src="images/gallery-1.png" target="_blank" height="330"></a>
+                <a href="products-details.html">
+                    <h4>Printed Tshirt</h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/products2.png" target="_blank">
+                <h4>Original Snickers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$60.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/products3.png" target="_blank">
+                <h4>Original sweatpants</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/products4.png" target="_blank">
+                <h4>customized Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$45.00</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/products5.png" target="_blank">
+                <h4>Bodyhug Jacket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$60.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/products6.png" target="_blank">
+                <h4>Italian Leather Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$100.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/products7.png" target="_blank">
+                <h4>Classic Black Wrist Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$1000.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/products8.png" target="_blank">
+                <h4>Customized Sock Cap</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$40.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/products9.png" target="_blank">
+                <h4>Disigner snicker</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/products10.png" target="_blank">
+                <h4>Unisex Sweater</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/products11.png" target="_blank">
+                <h4>Original Backpack</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$80.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/products12.png" target="_blank">
+                <h4>20k Gold Necklass</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$20000.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/products13.png" target="_blank">
+                <h4>Bronse Handchain</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$2000.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/products14.png" target="_blank">
+                <h4>Women Gean Wear</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$25.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/products15.png" target="_blank">
+                <h4>Women Hand Bag</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/products16.png" target="_blank">
+                <h4>customized Trianers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$75.00</p>
+            </div>
+        </div>
+    </div>
+    <!-- Offer  -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/Band.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Avalable on CodexStore</p>
+                    <h1>Smart Band 4</h1>
+                    <small>The Mi Band 4 features a 39.9% larger(than Mi Band 3) AMOLED color full-touch display with adjustable brightness, so everything is clear as it can be.</small>
+                    <a href="#" class="btn" target="_blank">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- testimonial--->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem Ipsum is simply a dummy text of the printing and typesetting industry. Lore Ipsum has been the industry's dummy text ever.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-1.png">
+                    <h3>jane Doe</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem Ipsum is simply a dummy text of the printing and typesetting industry. Lore Ipsum has been the industry's dummy text ever.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-2.png">
+                    <h3>John Doe</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem Ipsum is simply a dummy text of the printing and typesetting industry. Lore Ipsum has been the industry's dummy text ever.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-3.png">
+                    <h3>Saint Josh</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------- brands ------------>
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-coca-cola.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-philips.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-addidas.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-oppo.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------- footer ------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Dwnload Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <a href="#" target="_blank"><img src="images/play-store-logo.png"></a>
+                        <a href="#" target="_blank"><img src="images/app-store-logo.png"></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/footer-logo-1.png">
+                    <p>Our Purpose Is To Substainably Make the Pleasure and benefits of Wears Accessible to Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank">Coupons</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">Blog Post</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">Return Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">Join Affiliate</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/itz.newme.7" target="_blank">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/codexdarling/?hl=en" target="_blank">Instergram</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">YouTube</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright 2017 - Codex Codings</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
